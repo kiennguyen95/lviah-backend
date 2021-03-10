@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.post.field_caption
+    - field.field.node.post.field_category
     - field.field.node.post.field_picture
     - node.type.post
   module:
@@ -21,4 +22,5 @@ content:
     region: content
 hidden:
   field_caption: true
+  field_category: true
   field_picture: true

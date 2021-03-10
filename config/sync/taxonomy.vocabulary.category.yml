@@ -1,0 +1,8 @@
+uuid: 7a9a2034-0598-4dcb-8ce2-12e1c759fedc
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: 'Categorize posts by topic'
+weight: 0

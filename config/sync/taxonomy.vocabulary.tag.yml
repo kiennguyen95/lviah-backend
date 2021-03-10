@@ -1,0 +1,8 @@
+uuid: 1c7716fd-bea4-44f2-98d5-033f196495a6
+langcode: en
+status: true
+dependencies: {  }
+name: Tag
+vid: tag
+description: 'Hash tags for posts'
+weight: 0
