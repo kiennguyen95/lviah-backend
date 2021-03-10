@@ -1,0 +1,21 @@
+uuid: 28a10b3f-7c4a-4813-97ec-9244eabe1b56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_caption
+    - node.type.post
+  module:
+    - text
+id: node.post.field_caption
+field_name: field_caption
+entity_type: node
+bundle: post
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -24,7 +24,8 @@
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
         "drupal/devel": "^4.1",
-        "drupal/restui": "^1.19"
+        "drupal/restui": "^1.19",
+        "drush/drush": "^10.4"
     },
     "conflict": {
         "drupal/drupal": "*"

@@ -1,0 +1,39 @@
+uuid: 759b3b22-a05a-4666-9d25-f4f01dc2f6a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.post.field_caption
+    - field.field.node.post.field_picture
+    - node.type.post
+  module:
+    - image
+    - text
+    - user
+id: node.post.default
+targetEntityType: node
+bundle: post
+mode: default
+content:
+  field_caption:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_picture:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
