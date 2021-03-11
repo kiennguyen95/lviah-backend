@@ -1,5 +1,6 @@
 module:
   admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
   adminimal_admin_toolbar: 0
@@ -22,7 +23,9 @@ module:
   field: 0
   field_ui: 0
   file: 0
+  file_entity: 0
   filter: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
@@ -44,6 +47,7 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   user: 0
