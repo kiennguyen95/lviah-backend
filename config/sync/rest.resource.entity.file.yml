@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - file
+    - hal
     - serialization
     - user
 id: entity.file
@@ -16,6 +17,7 @@ configuration:
     - DELETE
     - PATCH
   formats:
+    - hal_json
     - json
   authentication:
     - cookie
