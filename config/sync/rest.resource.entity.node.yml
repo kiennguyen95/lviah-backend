@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - hal
     - node
     - serialization
     - user
@@ -16,6 +17,7 @@ configuration:
     - DELETE
     - PATCH
   formats:
+    - hal_json
     - json
   authentication:
     - cookie
